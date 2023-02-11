@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #010141;
+    background-size: cover;
+    background-position: center center;
+    font-smoothing: antialiased;
+  }
+
+  h1 {
+    margin-top: 100px;
+  }
+
+  p {
+    font-size: 20px;
+    margin: 30px;
+  }
+
+  header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+  }
+  
+  button {
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid black;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
